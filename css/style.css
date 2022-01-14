@@ -22,9 +22,14 @@ body {
 h1 {
   width: 30rem;
   font-size: 5.063rem;
+  color: var(--text);
+  position: absolute;
+  right: 20%;
+  transform: translateY(25%);
+}
+h1 span {
   color: var(--accent);
 }
-
 .container {
   width: 80%;
   margin: auto;
@@ -50,13 +55,12 @@ ul.menu-links li {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.menu-links a:hover {
+  color: var(--accent);
+  transition: color 0.2s ease-in;
+}
 
 .hero {
   height: 88vh;
   position: relative;
-}
-.hero h1 {
-  position: absolute;
-  right: 20%;
-  transform: translateY(25%);
 }
