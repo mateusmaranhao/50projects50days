@@ -2,6 +2,7 @@
 
 :root {
   --bg-home: #101010;
+  --secondary-bg: #141414;
   --accent: #F4B80D;
   --text: #F9F5EC;
 }
@@ -17,7 +18,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   background: url('../img/img-hero.svg') no-repeat top left;
-  background-size: 50% ;
+  background-size: 50%;
 }
 h1 {
   width: 30rem;
@@ -31,7 +32,8 @@ h1 span {
   color: var(--accent);
 }
 .container {
-  width: 80%;
+  width: 100%;
+  padding: 0 10%;
   margin: auto;
 }
 
@@ -63,4 +65,25 @@ ul.menu-links li {
 .hero {
   height: 88vh;
   position: relative;
+}
+
+.about {
+  background: var(--secondary-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.25rem;
+  padding: 6.25rem 0;
+}
+.about h2 {
+  font-size: 3.375rem;
+  color: var(--accent);
+}
+.about .about-paragraphs p {
+  color: var(--text);
+  width: 30rem;
+  line-height: 1.5;
+}
+.about .about-paragraphs p:last-child {
+  margin-top: 1.5rem;
 }
