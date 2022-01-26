@@ -21,7 +21,7 @@ body {
 
 /* ========== Panel ========== */
 .panel {
-  background-size: cover 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #f2f2f2;
