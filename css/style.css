@@ -5,6 +5,16 @@
   --secondary-bg: #141414;
   --accent: #F4B80D;
   --text: #F9F5EC;
+  --scroll-bar: #1E1E1E;
+}
+::-webkit-scrollbar {
+  width: 0.7rem
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-home);
 }
 
 /* ========== General ========== */
