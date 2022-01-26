@@ -106,7 +106,7 @@ ul.menu-links li {
 }
 .challenges a.btn {
   width: 10rem;
-  border: solid 4px var(--accent);
+  border: solid 0.188rem var(--accent);
   padding: 0.75rem 2rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -149,4 +149,28 @@ ul.menu-links li {
 .grid-card a:hover {
   opacity: 1;
   transition: opacity 0.3s ease;
+}
+
+/* ========== Footer ========== */
+footer, .footer-nav {
+  background-color: var(--secondary-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  padding: 3.125rem 0 1.563rem;
+}
+footer .copy {
+  margin-top: 1.563rem;
+  padding: 0.938rem 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--accent);
+  color: var(--secondary-bg);
+  font-weight: 700;
+}
+footer .copy a {
+  color: var(--secondary-bg);
 }
