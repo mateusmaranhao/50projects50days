@@ -195,3 +195,37 @@ footer .copy a {
   opacity: 1;
   transform:  translate3d(0, 0, 0);
 }
+
+/* ========== Página Desafios ========== */
+body.desafios {
+  background-image: none;
+}
+body.desafios h2 {
+  text-align: center;
+  margin: 1.25rem 0;
+}
+.desafios-cards {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, 53.125rem);
+  margin-bottom: 6.25rem;
+}
+.desafios-cards .card a{
+  display: flex;
+  background-color: var(--secondary-bg);
+  height: 38.75rem;
+  cursor: default;
+}
+.desafios-cards .card a img {
+  opacity: 0.5;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 35rem;
+  cursor: pointer;
+}
+.desafios-cards .card a img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: transform .3s ease;
+}
