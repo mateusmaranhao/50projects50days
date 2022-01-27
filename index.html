@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -12,7 +12,7 @@
 
 <body>
   <header class="container">
-    <nav>
+    <nav class="js-menu">
       <a href="./index.html">
         <img src="./img/logo.svg" alt="logo do projeto">
       </a>
@@ -22,10 +22,10 @@
           <a href="#">início</a>
         </li>
         <li>
-          <a href="#">sobre</a>
+          <a href="#sobre">sobre</a>
         </li>
         <li>
-          <a href="#">desafios</a>
+          <a href="#desafio">desafios</a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/mateus-maranhao/" target="blank">dev <i class="fas fa-arrow-right"></i></a>
@@ -35,13 +35,13 @@
   </header>
 
   <main>
-    <section class="hero container">
+    <section class="hero container" id="inicio">
       <h1>
         Site criado para postar todos os projetos do desafio <span>#50projects50days</span>.
       </h1>
     </section>
 
-    <section class="about container">
+    <section class="about container" id="sobre">
       <h2>Sobre</h2>
       <div class="about-paragraphs">
         <p>
@@ -53,7 +53,7 @@
       </div>
     </section>
 
-    <section class="challenges container">
+    <section class="challenges container" id="desafio">
       <h2>Desafios</h2>
 
       <div class="grid">
@@ -102,15 +102,15 @@
     <div class="footer-nav container">
       <img src="./img/logo.svg" alt="Logo do site">
 
-      <ul class="menu-links">
+      <ul class="menu-links js-menu">
         <li>
-          <a href="#">início</a>
+          <a href="#inicio">início</a>
         </li>
         <li>
-          <a href="#">sobre</a>
+          <a href="#sobre">sobre</a>
         </li>
         <li>
-          <a href="#">desafios</a>
+          <a href="#desafio">desafios</a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/mateus-maranhao/" target="blank">dev <i class="fas fa-arrow-right"></i></a>
@@ -121,6 +121,8 @@
       Criado e desenvolvido por <a href="https://github.com/mateusmaranhao" target="blank">Mateus Maranhão</a>
     </span>
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
