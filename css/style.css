@@ -229,3 +229,26 @@ body.desafios h2 {
   transform: scale(1.2);
   transition: transform .3s ease;
 }
+
+/* ========== Responsivo ========== */
+@media (max-width: 1400px) {
+  .desafios-cards {
+    grid-template-columns: 53.125rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .desafios-cards {
+    grid-template-columns: 95vw;
+  }
+  .desafios-cards .card a {
+    height: 25rem;
+  }
+  .desafios-cards .card a img {
+    width: 75vw;
+  }
+  .desafios-cards .card a img:hover {
+    transform: scale(1);
+  }
+}
